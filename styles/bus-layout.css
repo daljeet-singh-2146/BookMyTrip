@@ -1,0 +1,106 @@
+.main-container{
+    margin-top: 70px;
+    background-color: lightgray;
+    padding-bottom: 60px;
+}
+.bus-layout-parent-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    margin: 70px;
+    margin-top: 30px;
+}
+.bus-layout-grid{
+    border: 2px solid gray;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0px 120px;
+    padding: 20px 30px;
+    width: fit-content;
+}
+.bus-layout-info{
+    max-height: fit-content;
+    max-width: fit-content;
+    border: 2px solid gray;
+    background-color: white;
+    padding: 20px 80px 0px 20px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.wheel-img{
+    width: 50px;
+}
+.top-section{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+}
+.seat-rows-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+.seats-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.seat{
+    width: 35px;
+}
+.seat-price{
+    font-size: 12px;
+    text-align: center;
+}
+.bus-img{
+    width: 320px;
+    max-height: 190px;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+.bus-name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.route-info{
+    font-size: 18px;
+    color: gray;
+}
+.date{
+    font-size: 16px;
+    color: gray;
+}
+.boarding-point, .dropping-point{
+    font-size: 24px;
+    font-weight: bold;
+}
+.pickup, .destination{
+    font-size: 16px;
+    color: rgb(59, 59, 59);
+    margin-bottom: 15px;
+    margin-top: 2px;
+}
+.destination{
+    margin-bottom: 0;
+}
+.amenities{
+    margin-left: -8px;
+    margin-top: 10px;
+}
+.route{
+    display: flex;
+    align-items: center;
+    padding: 40px 75px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sold{
+    color: rgb(177, 177, 177);
+}
+.booked-price{
+    color: blue;
+    font-size: 11px;
+}

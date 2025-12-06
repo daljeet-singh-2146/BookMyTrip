@@ -1,0 +1,175 @@
+.main-container{
+    margin-top: 70px;
+    background-color: lightgray;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.route-info{
+    margin-left: 30px;
+}
+.route{
+    font-size: 25px;
+    font-weight: bold;
+}
+.buses-number{
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+}
+.buses-grid-parent-container{
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    margin: 25px;
+    margin-top: 30px;
+    column-gap: 40px;
+}
+.buses-facilities{
+    background-color: white;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 20px;
+    padding: 20px;
+    max-height: fit-content;
+}
+.buses-found{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.source{
+    font-size: 14px;
+    color: gray;
+}
+.status{
+    background-color: lightgray;
+    padding: 2px;
+    border-radius: 4px;
+    color: black;
+}
+.buses-grid{
+    display: grid;
+    row-gap: 20px;
+}
+.bus-container{
+    display: grid;
+    background-color: white;
+    padding: 12px 16px;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    border: 2px solid rgb(160 160 160);
+    border-radius: 20px;
+}
+.bus-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.bus-type{
+    color: gray;
+    font-size: 14px;
+}
+.bus-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seat-available{
+    color: white;
+    background-color: darkgreen;
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.time{
+    font-size: 18px;
+}
+.dept-time{
+    font-size: 20px;
+    font-weight: bold;
+}
+.old-price{
+    display: inline-block;
+    text-decoration: line-through;
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+.new-price{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+}
+.view-bus{
+    display: flex;
+    justify-content: end;
+    margin-top: -15px;
+}
+.view{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.view:hover{
+    background-color: rgb(255, 88, 88);
+}
+.view:active{
+    background-color: rgb(255, 114, 114);
+}
+.facilities-grid{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.facilities-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.facilities-elm{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    max-width: fit-content;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.facility-img{
+    width: 33px;
+    margin-right: 10px;
+}
+.star{
+    width: 25px;
+}
+.star-elm{
+    padding: 5px 15px;
+}
+.rate{
+    width: 30px;
+}
+.rate-elm{
+    padding: 3px 15px;
+}
+.img{
+    width: 28px;
+}
+.img-checked{
+    width: 26px;
+}
+.search-icon{
+    margin-right: 10px;
+}
+.no-result{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(138, 138, 138);
+    margin: 20px 6px;
+}

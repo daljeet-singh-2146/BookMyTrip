@@ -1,0 +1,312 @@
+.main {
+    margin-top: 50px;
+}
+.home-banner {
+    flex-shrink: 0;
+    width: 100%;
+    -webkit-mask-image: linear-gradient(to left, black 50%, transparent 100%);
+    mask-image: linear-gradient(to left, black 50%, transparent 100%);
+}
+.main-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+.content {
+    color: white;
+    margin: 0;
+    font-size: 45px;
+    font-weight: bold;
+}
+.main-body {
+    position: absolute;
+    top: 95px;
+    left: 73px;
+    align-items: center;
+}
+.search-parent-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: -65px;
+}
+.search-bus-container {
+    width: 90%;
+    height: 175px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.4);
+}
+.parent-transport-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.transport {
+    display: flex;
+    align-items: center;
+}
+.bus-icon {
+    width: 43px;
+    margin-right: 3px;
+}
+.transport-name {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.underline-selected {
+    background-color: red;
+    width: 102px;
+    height: 5px;
+    border-radius: 5px;
+}
+.journey-parent-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.journey {
+    display: flex;
+    flex: 1;
+    height: 60px;
+    margin-right: 20px;
+    border: 2px solid rgb(141, 141, 141);
+    border-radius: 10px;
+}
+.from-container, .to-container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 10px;
+    border-right: 2px solid rgb(141, 141, 141);
+}
+.from-logo {
+    width: 35px;
+}
+.from-input-box, .to-input-box{
+    border: none;
+    flex: 1;
+    width: 0;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.from-input-box::placeholder,
+.to-input-box::placeholder{
+    color: rgb(52, 52, 52);
+}
+.from-input-box:focus,
+.to-input-box:focus{
+    outline: none;
+}
+.to-logo{
+    width: 30px;
+}
+.to-input-box{
+    margin-left: 6px;
+}
+.date-container{
+    padding: 10px 15px;
+    padding-right: 0;
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+.calender-icon{
+    width: 26px;
+}
+.date-input-box{
+    height: 100%;
+    flex: 1;
+    width: 0;
+    border: none;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: text;
+}
+.date-input-box:focus {
+    outline: none;
+}
+.today-btn, .tomorrow-btn{
+    padding: 8px 30px;
+    font-size: 17px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.today-btn:hover, .tomorrow-btn:hover{
+    background-color: rgb(182, 182, 182);
+}
+.today-btn:active, .tomorrow-btn:active{
+    background-color: rgb(167, 167, 167);
+}
+.search-btn {
+    padding: 14px 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.search-btn:hover{
+    background-color: rgb(255, 60, 60);
+}
+.search-btn:active{
+    background-color: rgb(255, 88, 88);
+}
+.popular-buses-container{
+    margin: 50px;
+}
+.popular-buses-heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+.popular-buses-body{
+    font-size: 17px;
+    color: rgb(95, 95, 95);
+    margin-top: 18px;
+}
+.popular-buses-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 20px;
+    margin-top: 20px;
+}
+.popular-buses-grid-element{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(181, 181, 181);
+    border-radius: 10px;
+    padding: 15px;
+}
+.popular-buses-destination-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.popular-buses-route{
+    display: inline-block;
+    flex: 1;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.popular-buses-btn{
+    padding: 8px 20px;
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.popular-buses-btn:hover{
+    background-color: rgb(207, 207, 207);
+}
+.popular-buses-btn:active{
+    background-color: rgb(189, 189, 189);
+}
+.bus-offers-container,
+.new-features-container,
+.pvt-buses-container{
+    margin: 0px 50px;
+    margin-bottom: 70px;
+}
+.bus-offers-heading,
+.new-features-heading,
+.pvt-buses-heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+.bus-offers-img, .new-features-img,
+.pvt-buses-img{
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+.pvt-buses-img{
+    width: 90%;
+}
+.bus-offers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 27px;
+}
+.new-features-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+.pvt-buses-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    margin-top: 15px;
+    margin-left: -5px;
+}
+.bus-info-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 35px;
+    margin: 0px 50px;
+    padding-bottom: 70px;
+}
+.bus-info-img{
+    width: 100%;
+}
+.about-info-heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+.about-info-body{
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+}
+.bottom-section-container{
+    width: 100%;
+    background-color: rgb(19, 26, 34);
+    padding: 30px;
+}
+.about{
+    color: white;
+    font-size: 15px;
+    padding: 0px 100px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.nav-links, .contact{
+    display: flex;
+    justify-content: center;
+}
+.links, .links-{
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.links-{
+    font-size: 14px;
+}
+.links:hover{
+    text-decoration: underline;
+}
+.developers{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
