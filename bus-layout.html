@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Bookings</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/bus-layout.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="anchor-elm"><div class="left-section">
+            <img class="bus-logo" src="Images/bus-logo.svg">
+            <p class="company-name">Book<span class="end-name">MyTrip</span></p>
+        </div></a>
+        <div class="right-section">
+            <a href="index.html" class="anchor-elm"><button class="nav-btn">
+                <img class="nav-img" src="Images/discount.png">
+                Offers
+            </button></a>
+            <a href="bookings.html" class="anchor-elm"><button class="nav-btn">
+                <img class="nav-img" src="Images/ticket.png">
+                Bookings
+            </button></a>
+            <a href="index.html" class="anchor-elm"><button class="nav-btn">
+                <img class="nav-img" src="Images/customer-service.png">
+                Support
+            </button></a>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="route">
+        </div>
+        <div class="bus-layout-parent-container">
+            <div class="bus-layout-grid">
+                <div class="top-section">
+                    <img class="wheel-img" src="Images/wheel.png">
+                </div>
+                <div class="seat-rows-grid">
+                    <div class="seats-grid left-seats"></div>
+                    <div class="seats-grid right-seats"></div>
+                </div>
+            </div>
+            <div class="bus-layout-info">
+            </div>
+        </div>
+    </div>
+    <script type="module" src="scripts/bus-layout.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Bookings</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/checkout.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="anchor-elm"><div class="left-section">
+            <img class="bus-logo" src="Images/bus-logo.svg">
+            <p class="company-name">Book<span class="end-name">MyTrip</span></p>
+        </div></a>
+        <div class="right-section">
+            <a href="index.html" class="anchor-elm"><button class="nav-btn">
+                <img class="nav-img" src="Images/discount.png">
+                Offers
+            </button></a>
+            <a href="bookings.html" class="anchor-elm"><button class="nav-btn">
+                <img class="nav-img" src="Images/ticket.png">
+                Bookings
+            </button></a>
+            <a href="index.html" class="anchor-elm"><button class="nav-btn">
+                <img class="nav-img" src="Images/customer-service.png">
+                Support
+            </button></a>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="route-info">
+            <p class="route"></p>
+            <p class="buses-number"></p>
+        </div>
+        <div class="buses-grid-parent-container">
+            <div class="buses-facilities">
+                <p class="facilities-heading">Facilities</p>
+                <div class="facilities-grid">
+                    <div class="facilities-elm">
+                        <img class="facility-img" src="Images/air-conditioner.png">
+                        Air conditioner
+                    </div>
+                    <div class="facilities-elm star-elm">
+                        <img class="facility-img star" src="Images/star.png">
+                        Primo Bus
+                    </div>
+                    <div class="facilities-elm rate-elm">
+                        <img class="facility-img rate" src="Images/rate.png">
+                        High Rated
+                    </div>
+                    <div class="facilities-elm rate-elm">
+                        <img class="facility-img img" src="Images/save.png">
+                        Free Cancellation
+                    </div>
+                    <div class="facilities-elm rate-elm">
+                        <img class="facility-img img" src="Images/seat.png">
+                        Comfy Seats
+                    </div>
+                    <div class="facilities-elm rate-elm">
+                        <img class="facility-img img" src="Images/location.png">
+                        Live Tracking
+                    </div>
+                    <div class="facilities-elm rate-elm">
+                        <img class="facility-img img-checked" src="Images/checked.png">
+                        Volvo Buses
+                    </div>
+                </div>
+            </div>
+            <div class="buses-grid-container">
+                <p class="buses-found"></p>
+                <div class="buses-grid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script  type="module" src="scripts/checkout.js"></script>
+</body>
+</html>

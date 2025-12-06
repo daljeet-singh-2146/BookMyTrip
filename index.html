@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyTrip</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/header.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="anchor-elm"><div class="left-section">
+            <img class="bus-logo" src="Images/bus-logo.svg">
+            <p class="company-name">Book<span class="end-name">MyTrip</span></p>
+        </div></a>
+        <div class="right-section">
+            <a href="#offers" class="anchor-elm"><button class="nav-btn">
+                <img class="nav-img" src="Images/discount.png">
+                Offers
+            </button></a>
+            <a href="bookings.html" class="anchor-elm"><button class="nav-btn">
+                <img class="nav-img" src="Images/ticket.png">
+                Bookings
+            </button></a>
+            <a href="#support" class="anchor-elm"><button class="nav-btn">
+                <img class="nav-img" src="Images/customer-service.png">
+                Support
+            </button></a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-container">
+            <img class="home-banner" src="Images/HomeBanner.webp">
+            <div class="main-body">
+                <p class="content">India's No. 1 online</p>
+                <p class="content">bus ticket booking site</p>
+            </div>
+        </div>
+        <div class="search-parent-container">
+            <div class="search-bus-container">
+                <div class="parent-transport-container">
+                    <div class="transport">
+                        <img class="bus-icon" src="Images/bus-logo.svg">
+                        <p class="transport-name">Buses</p>
+                    </div>
+                    <div class="underline-selected"></div>
+                </div>
+                <div class="journey-parent-container">
+                    <div class="journey">
+                        <div class="from-container">
+                            <img class="from-logo" src="Images/From.png">
+                            <input class="from-input-box" placeholder="Leaving From" type="text">
+                        </div>
+                        <div class="to-container">
+                            <img class="to-logo" src="Images/to.png">
+                            <input class="to-input-box" placeholder="Going To" type="text">
+                        </div>
+                        <div class="date-container">
+                            <img class="calender-icon" src="Images/calendar.png">
+                            <input class="date-input-box" type="date">
+                            <button class="today-btn">Today</button>
+                            <button class="tomorrow-btn">Tomorrow</button>
+                        </div>
+                    </div>
+                    <a href="checkout.html"><button class="search-btn">Search</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="popular-buses-container">
+            <div class="popular-buses-info">
+                <p class="popular-buses-heading">Popular Buses Route</p>
+                <p class="popular-buses-body">
+                    You can check popular bus routes, compare bus schedules,
+                    timings and their prices to book bus tickets online.
+                    BookMyTrip offers you low-cost bus fares for your travel across India.
+                    For a seamless travel experience, book bus tickets online with BookMyTrip
+                    for your bus journey.
+                </p>
+            </div>
+            <div class="popular-buses-grid">
+                <div class="popular-buses-grid-element">
+                    <img class="popular-buses-destination-img" src="Images/delhi.webp">
+                    <p class="popular-buses-route">Delhi &#8594; Manali</p>
+                    <button class="popular-buses-btn">View Buses</button>
+                </div>
+                <div class="popular-buses-grid-element">
+                    <img class="popular-buses-destination-img" src="Images/hyderabad.webp">
+                    <p class="popular-buses-route">Delhi &#8594; Hyderabad</p>
+                    <button class="popular-buses-btn">View Buses</button>
+                </div>
+                <div class="popular-buses-grid-element">
+                    <img class="popular-buses-destination-img" src="Images/mumbai.webp">
+                    <p class="popular-buses-route">Delhi &#8594; Mumbai</p>
+                    <button class="popular-buses-btn">View Buses</button>
+                </div>
+                <div class="popular-buses-grid-element">
+                    <img class="popular-buses-destination-img" src="Images/Ahemdabad.webp">
+                    <p class="popular-buses-route">Delhi &#8594; Ahemdabad</p>
+                    <button class="popular-buses-btn">View Buses</button>
+                </div>
+                <div class="popular-buses-grid-element">
+                    <img class="popular-buses-destination-img" src="Images/pune.webp">
+                    <p class="popular-buses-route">Delhi &#8594; Pune</p>
+                    <button class="popular-buses-btn">View Buses</button>
+                </div>
+                <div class="popular-buses-grid-element">
+                    <img class="popular-buses-destination-img" src="Images/chennai.webp">
+                    <p class="popular-buses-route">Delhi &#8594; Chennai</p>
+                    <button class="popular-buses-btn">View Buses</button>
+                </div>
+            </div>
+        </div>
+        <div class="bus-offers-container" id="offers">
+            <p class="bus-offers-heading">Bus Booking Discount Offers</p>
+            <div class="bus-offers-grid">
+                <img class="bus-offers-img" src="Images/offer1.jfif">
+                <img class="bus-offers-img" src="Images/offer2.jfif">
+                <img class="bus-offers-img" src="Images/offer3.jfif">
+            </div>
+        </div>
+        <div class="new-features-container">
+            <p class="new-features-heading">What's New</p>
+            <div class="new-features-grid">
+                <img class="new-features-img" src="Images/new1.webp">
+                <img class="new-features-img" src="Images/new2.webp">
+                <img class="new-features-img" src="Images/new3.webp">
+                <img class="new-features-img" src="Images/new4.webp">
+            </div>
+        </div>
+        <div class="pvt-buses-container">
+            <p class="pvt-buses-heading">Top Private Travels</p>
+            <div class="pvt-buses-grid">
+                <img class="pvt-buses-img" src="Images/bus1.jfif">
+                <img class="pvt-buses-img" src="Images/bus2.webp">
+                <img class="pvt-buses-img" src="Images/bus3.jfif">
+                <img class="pvt-buses-img" src="Images/bus4.jfif">
+                <img class="pvt-buses-img" src="Images/bus5.jfif">
+            </div>
+        </div>
+        <div class="bus-info-container">
+            <img class="bus-info-img" src="Images/offer4.png">
+            <img class="bus-info-img" src="Images/info1.png">
+            <img class="bus-info-img" src="Images/info2.png">
+            <img class="bus-info-img" src="Images/info3.png">
+            <div class="bus-about-info">
+                <p class="about-info-heading">About BookMyTrip</p>
+                <p class="about-info-body">
+                    BookMyTrip, over the years, has strived to deliver easy booking solutions
+                    to its customers. Our continued efforts have resulted in BookMyTrip becoming
+                    one of the leading and top-rated bus booking platforms in India for various
+                    Bus services. We have a strong presence with a ticket inventory from over
+                    6200 bus partners and 450000 route options on our app and website.
+                </p>
+                <p class="about-info-body">
+                    Founded in the year 2008, BookMyTrip is a pioneer in providing end-to-end
+                    software and other value-added solutions such as e-ticketing systems, fleet
+                    management solutions, vehicle tracking systems, passenger information
+                    systems, and logistics management backed by a 24x7 customer support center.
+                    The company also provides technology solutions to more than 300 large
+                    private bus partners in India, 5 state transport corporations, and 2 
+                    international bus partners.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-section-container" id="support">
+        <p   class="about">
+            &copy; BookMyTrip is the India's largest online bus ticket booking service trusted by over
+            56+ million happy customers nationally. BookMyTrip offers bus ticket booking through
+            its website, iOS and Android mobile apps for all major routes.
+        </p>
+        <div class="nav-links">
+            <p class="links">Conditions of use</p>
+            <p class="links">Privacy Notice</p>
+            <p class="links">Customer Support</p>
+            <p class="links">Your Ads Privacy Choices</p>
+        </div>
+        <div class="contact">
+            <p class="links-">Phone No. +91 789854XXXX</p>
+            <p class="links-">Email:- bookmytrip@xyz.ac.in</p>
+        </div>
+        <p class="developers">Built by: @Daljeet Singh @Kartvya Chawla @Kavya Gautam</p>
+    </div>
+    <script type="module" src="scripts/index.js"></script>
+</body>
+</html>
